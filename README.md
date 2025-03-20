@@ -33,8 +33,7 @@ This project simulates a simple traffic light system using an Arduino. It includ
   6. The vehicle and pedestrian yellow lights blink again for 1 second.\
   7. The system resets back to default state.
 
-**Code Explanation
-**
+**Code Explanation**
 - The setup() function initializes all LED pins as outputs and sets the button as an input.
 - The loop() function checks if the button is pressed and starts a timer.
 - Once the timer reaches 11 seconds, it executes the traffic light sequence.
